@@ -1,0 +1,126 @@
+.box1 {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.not {
+    background-color: black;
+    height: 330px;
+    width: 360px;
+    border-radius: 40px;
+}
+img {
+    border-radius: 20px; 
+}
+h1 {
+    color: white;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button {
+    border-radius: 20px;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    border: none;
+    font-size: 30px;
+     font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#uu {
+    height: 60px;
+    position: fixed;
+    top: 20px;
+    right: 200px;
+    width: 250px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: 30px;
+  background-color: #f4f2f2;
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 9em;
+  transition: all ease-in-out .5s;
+  margin-right: -2rem;
+}
+
+.search__input:hover, .search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+  outline: none;
+  background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ccc;
+}
+
+.search__input:focus + .search__button {
+  background-color: #f0eeee;
+}
+
+.search__button {
+  border: none;
+  background-color: #f4f2f2;
+  margin-top: .1em;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__icon {
+  height: 1em;
+  width: 1em;
+  fill: #b4b4b4;
+}
+img:hover {
+    width: 290;
+     transition: width 0.5s;
+   
+}
+#dd:hover {
+  width: 200px;
+  height: 200px;
+}
+#bb:hover {
+  width: 140px;
+  height: 160px;
+}
+#ii:hover {
+  width: 150px;
+  height: 150px;
+}
+
