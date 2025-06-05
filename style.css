@@ -25,6 +25,9 @@
 }
 img {
     border-radius: 20px; 
+    transition: ease 0.4s;
+    transition-property: width;
+}
 }
 h1 {
     color: white;
